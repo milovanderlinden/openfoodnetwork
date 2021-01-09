@@ -8,9 +8,9 @@ module Api
       @taxons = if taxonomy
                   taxonomy.root.children
                 elsif params[:ids]
-                  Spree::Taxon.where(id: params[:ids].split(","))
+                  Spree::Taxon.where(id: raw_params[:ids].split(","))
                 else
-                  Spree::Taxon.ransack(params[:q]).result
+                  Spree::Taxon.ransack(raw_params[:q]).result
                 end
       render json: @taxons, each_serializer: Api::TaxonSerializer
     end
@@ -31,7 +31,7 @@ module Api
         invalid_resource!(@taxon) && return
       end
 
-      @taxon.parent_id = taxonomy.root.id unless params[:taxon][:parent_id]
+      @taxon.parent_id = taxonomy.root.id unless raw_params[:taxon].andand[:parent_id]
 
       if @taxon.save
         render json: @taxon, serializer: Api::TaxonSerializer, status: :created
