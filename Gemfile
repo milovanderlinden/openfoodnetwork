@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
 source 'https://rubygems.org'
-ruby "2.4.4"
+ruby "2.7.2"
 git_source(:github) { |repo_name| "https://github.com/#{repo_name}.git" }
 
 plugin 'bootboot', '~> 0.1.1' unless Bundler.settings[:frozen]
@@ -13,7 +13,7 @@ if ENV['DEPENDENCIES_NEXT']
   # This will only be loaded when running
   # bundler command prefixed with `DEPENDENCIES_NEXT=1
   gem 'rails', '> 5.0', '< 5.1'
-
+  gem 'irb'
   gem 'activemerchant', '>= 1.78.0'
   gem 'angular-rails-templates', '>= 0.3.0', '< 1.1.0'
   gem 'awesome_nested_set'
@@ -50,7 +50,7 @@ gem "order_management", path: "./engines/order_management"
 gem 'web', path: './engines/web'
 
 gem 'activerecord-postgresql-adapter'
-gem 'pg', '~> 0.21.0'
+gem 'pg'
 
 gem 'acts_as_list', '0.9.19'
 gem 'cancancan', '~> 1.7.0'
@@ -79,7 +79,6 @@ gem 'kaminari', '~> 1.2.1'
 
 gem 'andand'
 gem 'angularjs-rails', '1.5.5'
-gem 'aws-sdk', '1.67.0'
 gem 'bugsnag'
 gem 'haml'
 gem 'redcarpet'
@@ -114,7 +113,6 @@ gem 'whenever', require: false
 gem 'test-unit', '~> 3.4'
 
 gem 'coffee-rails', '~> 4.2.2'
-gem 'compass-rails'
 
 gem 'libv8', '< 8'
 gem 'mini_racer', '0.2.15'

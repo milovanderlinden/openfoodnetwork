@@ -18,7 +18,7 @@ class ContentConfiguration < Spree::Preferences::FileConfiguration
   has_attached_file :home_hero, default_url: "/default_images/home.jpg"
 
   # Map
-  preference :open_street_map_enabled, :boolean, default: false
+  preference :open_street_map_enabled, :boolean, default: true
   preference :open_street_map_provider_name, :string, default: "OpenStreetMap.Mapnik"
   preference :open_street_map_provider_options, :text, default: "{}"
   preference :open_street_map_default_latitude, :string, default: "-37.4713077"

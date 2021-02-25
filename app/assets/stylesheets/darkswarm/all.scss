@@ -21,3 +21,18 @@
 ofn-modal {
   display: block;
 }
+
+.flex-card-row {
+  display: flex;
+  flex-direction: row;
+
+  >.flex-card {
+    display: flex;
+    flex-direction: column;
+    margin: 1em;
+    text-align: left;
+    *:nth-child(2){
+      flex-grow: 1;
+    }
+  }
+}

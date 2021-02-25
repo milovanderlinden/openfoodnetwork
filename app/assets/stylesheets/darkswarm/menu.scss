@@ -1,4 +1,3 @@
-@import 'compass';
 @import 'branding';
 @import 'mixins';
 @import 'typography';
@@ -7,7 +6,7 @@
 nav.top-bar {
   @include textpress;
   text-shadow: none;
-  text-align: center;
+  //text-align: center;
   font-size: 16px;
   margin-bottom: 0;
   height: $topbar-height;

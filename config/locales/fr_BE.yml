@@ -1,5 +1,5 @@
 fr_BE:
-  language_name: "Français"
+  language_name: "Français (Belgique)"
   activerecord:
     attributes:
       enterprise_fee:

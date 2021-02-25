@@ -43,7 +43,7 @@ div.dashboard_item {
 
     &.red {
       border-color: $warning-red;
-      border-width: 3px;
+      border-width: 1px;
 
       h3 {
         color: $warning-red;
@@ -52,7 +52,7 @@ div.dashboard_item {
 
     &.orange {
       border-color: $warning-orange;
-      border-width: 3px;
+      border-width: 1px;
 
       h3 {
         color: $warning-orange;
@@ -168,7 +168,7 @@ div.dashboard_item {
     }
 
     &.orange, &.red {
-      border-width: 0px 3px 0px 3px;
+      border-width: 0 1px 0 1px;
     }
 
     &.even {

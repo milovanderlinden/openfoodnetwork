@@ -10,8 +10,17 @@
 
   map, .angular-google-map-container, google-map, .angular-google-map {
     display: block;
-    height: 100%;
-    width: 100%;
+    height: calc(100vh - 4rem);
+    @include breakpoint(desktop) {
+      height: calc(100vh - 2.8rem);
+    }
+    @include breakpoint(phablet) {
+      height: calc(100vh - 2.8rem);
+    } 
+    @include breakpoint(mobile) {
+      height: calc(100vh - 2.8rem);
+    }
+    
   }
 
   // https://github.com/zurb/foundation/issues/112

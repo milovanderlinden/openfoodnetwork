@@ -97,6 +97,7 @@
 //= require moment/locale/it.js
 //= require moment/locale/nb.js
 //= require moment/locale/nl-be.js
+//= require moment/locale/nl.js
 //= require moment/locale/pt-br.js
 //= require moment/locale/pt.js
 //= require moment/locale/ru.js

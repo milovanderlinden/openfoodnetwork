@@ -377,7 +377,9 @@ module Spree
         destroy_without_delete_from_order_cycles
       end
     end
-    alias_method_chain :destroy, :delete_from_order_cycles
+    if Rails::VERSION::MAJOR > 5 && Rails::VERSION::MINOR < 2
+      alias_method_chain :destroy, :delete_from_order_cycles
+    end
 
     private
 

@@ -1,7 +1,6 @@
 @import "mixins";
 @import "branding";
 @import "animations";
-@import "compass/css3/transition";
 
 $page-alert-height: 55px;
 
@@ -54,7 +53,7 @@ $page-alert-height: 55px;
 .off-canvas-fixed ofn-flash,
 .off-canvas-fixed nav.tab-bar,
 .off-canvas-fixed .page-alert {
-  @include transition(all 1000ms ease-in-out);
+  transition: all 1000ms ease-in-out;
 }
 
 .off-canvas-wrap .page-alert {
