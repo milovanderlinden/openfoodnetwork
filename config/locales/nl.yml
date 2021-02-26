@@ -1152,7 +1152,7 @@ nl:
       failed_to_update: "Bijwerking van de bestelcyclus is mislukt"
   checkout:
     already_ordered:
-      cart: "winkelwagentje"
+      cart: "winkelwagen"
       message_html: "Je hebt al een bestelling voor deze bestellingscyclus. Controleer de %{cart} om de artikels te zien die je voordien besteld hebt. Je kan ook artikels annuleren zolang de bestellingscyclus openstaat."
     failed: "De check-out is gefaald. Laat ons weten zodat we u besteling in orde kunnen maken."
   shops:
@@ -1165,12 +1165,12 @@ nl:
       cart:
         cart: "winkelwagen"
       cart_sidebar:
-        checkout: "Kassa"
-        edit_cart: "Winkelwagen aanpassen"
-        items_in_cart_singular: "%{num}items in uw winkelkwagentje"
-        items_in_cart_plural: "%{num}items in uw winkelkwagentje"
+        checkout: "Afrekenen"
+        edit_cart: "Aanpassen"
+        items_in_cart_singular: "%{num} product in winkelwagen"
+        items_in_cart_plural: "%{num} producten in winkelwagen"
         close: "Sluit"
-        cart_empty: "Uw winkelwagen is leeg"
+        cart_empty: "Winkelwagen is leeg"
         take_me_shopping: "Neem me shoppen!"
       signed_in:
         profile: "Profiel"
@@ -1214,7 +1214,7 @@ nl:
   card_could_not_be_updated: De bankkaart kon niet worden geüpdatet.
   card_could_not_be_saved: De bankkaart kon niet worden bewaard.
   spree_gateway_error_flash_for_checkout: "Er was een probleem met betaalinformatie: %{error}"
-  invoice_billing_address: "Fakturatieadres :"
+  invoice_billing_address: "Factuuradres:"
   invoice_column_tax: "BTW"
   invoice_column_price: "Prijs"
   invoice_column_item: "Artikel"
@@ -1270,7 +1270,7 @@ nl:
   user_guide_link: "Link Gebruikershandleiding"
   name: Naam
   first_name: Voornaam
-  last_name: Familienaam
+  last_name: Achternaam
   email: Emailadres
   phone: Telefoon
   next: Volgende
@@ -1317,11 +1317,11 @@ nl:
   label_less: "Toon minder"
   label_notices: "Info"
   cart_items: "Artikels"
-  cart_headline: "Je winkelwagentje"
+  cart_headline: "Winkelwagen"
   total: "Totaal"
-  cart_updating: "winkelwagentje wordt geüpdatet..."
-  cart_empty: "Winkelwagentje is leeg"
-  cart_edit: "Pas je winkelwagentje aan"
+  cart_updating: "Winkelwagen wordt geüpdatet..."
+  cart_empty: "Winkelwagen is leeg"
+  cart_edit: "Winkelwagen aanpassen"
   item: "Artikel"
   qty: "Aantal"
   card_number: Kaartnummer
@@ -1351,12 +1351,12 @@ nl:
       header: "Hoe We Cookies Gebruiken"
       desc_part_1: "Cookies zijn héél kleine tekstbestandjes die opgeslagen worden op je computer wanneer je bepaalde websites bezoekt."
       desc_part_2: "Het wordt in verschillende landen ingezet. In België is het ontwikkeld door Oxfam-World Stores om mensen die voedsel verbouwen, verkopen en kopen in staat te stellen om hun eigen kracht te ontwikkelen."
-      desc_part_3: "We gebruiken cookies hoofdzakelijk om te onthouden wie je bent wanneer  op het portaal inlogt, of om in staat te zijn de artikels te onthouden die je aan je winkelwagentje hebt toegevoegd zelfs wanneer je niet ingelogd bent. Als je op de website blijft navigeren zonder geklikt te hebben op 'Accepteer cookies', dan veronderstellen we dat je ons de toestemming geeft om cookies te bewaren die essentieel zijn voor het functioneren van de website. Hier is een lijst van cookies die we gebruiken!"
+      desc_part_3: "We gebruiken cookies hoofdzakelijk om te onthouden wie je bent wanneer  op het portaal inlogt, of om in staat te zijn de producten te onthouden die je aan de winkelwagen hebt toegevoegd zelfs wanneer je niet ingelogd bent. Als je op de website blijft navigeren zonder geklikt te hebben op 'Accepteer cookies', dan veronderstellen we dat je ons de toestemming geeft om cookies te bewaren die essentieel zijn voor het functioneren van de website. Hier is een lijst van cookies die we gebruiken!"
       essential_cookies: "Essentiële Cookies"
       essential_cookies_desc: "De volgende  cookies zijn absoluut nodig voor de werking van onze website"
       essential_cookies_note: "De meeste cookies bevatten slechts een uniek identificatienummer, maar geen andere gegevens, dus je emailadres en wachtwoord worden bijvoorbeeld niet gebruikt en worden dus ook niet blootgesteld."
       cookie_domain: "Ingesteld Door:"
-      cookie_session_desc: "Wordt gebruikt om we website toe te laten de gebruikers te onthouden tussen paginabezoeken, bijvoorbeeld, het onthouden van artikels in je winkelwagentje."
+      cookie_session_desc: "Wordt gebruikt om we website toe te laten de gebruikers te onthouden tussen paginabezoeken, bijvoorbeeld, het onthouden van producten in de winkelwagen."
       cookie_consent_desc: "Gebruikt om de toestand van de gebruikers toestemming om cookies te bewaren"
       cookie_remember_me_desc: "Wordt gebruikt indien de gebruiker heeft ingesteld dat de website hem mag onthouden. Deze cookie wordt na 12 dagen automatisch verwijderd. Indine je als gebruiker wil dat deze cookie wordt verwijderd, dan hoef je slechts uit te loggen. Als je niet wil dat deze cookie geïnstalleerd wordt op je computer dan moet je het vakje 'onthoudt me' niet aanvinken wanneer je inlogt."
       cookie_openstreemap_desc: "Gebruikt door onze bevriende opensource kaartaanbieder (OpenStreetMap) om te verzekeren dat ze niet te veel aanvragen krijgen gedurende een bepaalde tijdsperiode, en zo te verhinderen dat er misbruik wordt gemaakt van hun diensten."
@@ -1374,11 +1374,11 @@ nl:
       disabling_cookies_chrome_link: "https://support.google.com/chrome/answer/95647?co=GENIE.Platform%3DDesktop&hl=nl"
       disabling_cookies_ie_link: "https://support.microsoft.com/nl-be/help/17442/windows-internet-explorer-delete-manage-cookies"
       disabling_cookies_safari_link: "https://support.apple.com/nl-be/guide/safari/sfri11471/mac"
-      disabling_cookies_note: "Maar wees je er van bewust dat wannneer je essentiële cookies aanpast of verwijderd gebruikt door het Open Food Network, de website niet zal werken, je zal dan niets kunnen toevoegen aan je winkelwagentje of verder gaan naar de kassa bijvoorbeeld."
+      disabling_cookies_note: "Maar wees je er van bewust dat wannneer je essentiële cookies aanpast of verwijderd gebruikt door het Open Food Network, de website niet zal werken, je zal dan niets kunnen toevoegen aan de winkelwagen of verder gaan naar de kassa bijvoorbeeld."
     cookies_banner:
       cookies_usage: "Deze site maakt gebruikt van cookies om navigatie vlot en veilig te maken, en om ons te helpen begrijpen hoe we de toepassingen die we aanbieden in de toekomst te verbeteren."
       cookies_definition: "Cookies zijn héél kleine tekstbestandjes die opgeslagen worden op je computer wanneer je bepaalde websites bezoekt."
-      cookies_desc: "We gebruiken cookies hoofdzakelijk om te onthouden wie je bent wanneer op het portaal inlogt, of om in staat te zijn de artikels te onthouden die je aan je winkelwagentje hebt toegevoegd zelfs wanneer je niet ingelogd bent. Als je op de website blijft navigeren zonder geklikt te hebben op 'Accepteer cookies', dan veronderstellen we dat je ons de toestemming geeft om cookies te bewaren die essentieel zijn voor het functioneren van de website."
+      cookies_desc: "We gebruiken cookies hoofdzakelijk om te onthouden wie je bent wanneer op het portaal inlogt, of om in staat te zijn de producten te onthouden die je aan de winkelwagen hebt toegevoegd zelfs wanneer je niet ingelogd bent. Als je op de website blijft navigeren zonder geklikt te hebben op 'Accepteer cookies', dan veronderstellen we dat je ons de toestemming geeft om cookies te bewaren die essentieel zijn voor het functioneren van de website."
       cookies_policy_link_desc: "Als je meer wil te weten komen, kijk eens naar onze"
       cookies_policy_link: "cookie policy"
       cookies_accept_button: "Aanvaard Cookies"
@@ -1409,12 +1409,12 @@ nl:
   stats_shops: "Winkels"
   stats_shoppers: "Klanten"
   stats_orders: "Bestellingen"
-  checkout_title: Kassa
-  checkout_now: Naar de kassa
+  checkout_title: Afrekenen
+  checkout_now: Afrekenen
   checkout_order_ready: Bestellingen klaar tegen
   checkout_hide: Verberg
   checkout_expand: Toon Meer
-  checkout_headline: "Ben je klaar om naar de kassa te gaan?"
+  checkout_headline: "Meld je aan om af te rekenen"
   checkout_as_guest: "Afrekenen als gast"
   checkout_details: "Jouw gegevens"
   checkout_billing: "Facturatiegegevens"
@@ -1426,12 +1426,12 @@ nl:
   checkout_ready_for: "Klaar voor:"
   checkout_instructions: "Heb je opmerkingen of speciale aanwijzingen?"
   checkout_payment: Betaling
-  checkout_send: Plaats nu je bestelling
-  checkout_your_order: Jouw bestelling
-  checkout_cart_total: Totaal winkelwagentje
-  checkout_shipping_price: Verzending
+  checkout_send: Bestelling plaatsen
+  checkout_your_order: Samenvatting
+  checkout_cart_total: Totaal producten
+  checkout_shipping_price: Verzendkosten
   checkout_total_price: Totaal
-  checkout_back_to_cart: "Terug naar je Winkelwagentje"
+  checkout_back_to_cart: "Terug naar winkelwagen"
   cost_currency: "Kosten in deviezen "
   order_paid: BETAALD
   order_not_paid: NIET BETAALD
@@ -1449,8 +1449,8 @@ nl:
   order_includes_tax: (belastingen inbegrepen)
   order_payment_paypal_successful: Je betalingen via PayPal is goed verwerkt
   order_hub_info: Hub Info
-  order_back_to_store: Terug Naar de Winkel
-  order_back_to_cart: Terug Naar je Winkelwagentje
+  order_back_to_store: Terug naar winkel
+  order_back_to_cart: Terug naar winkelwagen
   bom_tip: "Gebruik deze pagina om producthoeveelheden te verspreiden over meerdere bestellingen. Indien noodzakelijk mogen producten ook verwijderd worden uit de bestelling."
   unsaved_changes_warning: "Er zijn onopgeslagen veranderingen en zullen verloren gaan indien je verdergaat."
   unsaved_changes_error: "Velden met rode omlijning bevatten fouten."
@@ -1478,7 +1478,7 @@ nl:
   email_confirm_shop_greeting: "Dag %{name},"
   email_confirm_shop_order_html: "Goed gedaan! Je hebt een nieuwe bestelling voor <strong>%{distributor}</strong>!"
   email_confirm_shop_number_html: "Bestellingsbevestiging <strong>#%{number}</strong>"
-  email_order_summary_item: "Artikel"
+  email_order_summary_item: "Product"
   email_order_summary_quantity: "Aantal"
   email_order_summary_sku: "SKU"
   email_order_summary_price: "Prijs"
@@ -1584,9 +1584,9 @@ nl:
   products_filter_clear: "Duidelijk"
   products_filter_done: "Afgerond"
   products_loading: "Laad producten..."
-  products_updating_cart: "winkelwagentje wordt geüpdatet..."
-  products_cart_empty: "Winkelwagentje is leeg"
-  products_edit_cart: "Pas je winkelwagentje aan"
+  products_updating_cart: "winkelwagen wordt bijgewerkt..."
+  products_cart_empty: "Winkelwagen is leeg"
+  products_edit_cart: "Winkelwagen aanpassen"
   products_from: van
   products_change: "Geen veranderingen om te bewaren."
   products_update_error: "opslaan mislukt, "
@@ -1689,13 +1689,13 @@ nl:
   shops_signup_detail: Hier is het plaatje gedetailleerder.
   orders: Bestellingen
   orders_fees: Kosten...
-  orders_edit_title: Winkelwagentje
-  orders_edit_headline: Je winkelwagentje
+  orders_edit_title: Winkelwagen
+  orders_edit_headline: Winkelwagen
   orders_edit_time: Bestellingen klaar tegen
-  orders_edit_continue: Ga verder met winkelen
-  orders_edit_checkout: Kassa
-  orders_form_empty_cart: "Winkelwagen wissen"
-  orders_form_subtotal: subtotaal Producten
+  orders_edit_continue: Verder winkelen
+  orders_edit_checkout: Afrekenen
+  orders_form_empty_cart: "Alles verwijderen"
+  orders_form_subtotal: Subtotaal
   orders_form_admin: Beheer & Behandeling
   orders_form_total: Totaal
   orders_oc_expired_headline: Bestellingen zijn gesloten voor deze bestellingscyclus
@@ -1721,11 +1721,11 @@ nl:
   orders_confirm_cancel: Ben je zeker dat je deze bestelling wil annuleren?
   order_processed_successfully: "Je bestelling is met succes geplaatst"
   products_cart_distributor_choice: "Verdeler voor jouw bestelling:"
-  products_cart_distributor_change: "Je verdeler voor deze bestelling zal vervangen worden door %{name} indien je dit product toevoegt aan je winkelwagentje."
+  products_cart_distributor_change: "Je verdeler voor deze bestelling zal vervangen worden door %{name} indien je dit product toevoegt aan de winkelwagen."
   products_cart_distributor_is: "Je verdeler voor deze bestelling heet %{name}."
   products_distributor_error: "Vervolledig alsjeblieft je bestelling op %{link} voor je verder gaat met het winkelen bij een andere verdeler."
   products_oc: "Bestellingscyclus voor je bestelling:"
-  products_oc_change: "Je bestellingscyclus voor de bestelling zal verandert worden naar %{name} als je dit product toevoegt aan je winkelwagentje."
+  products_oc_change: "Je bestellingscyclus voor de bestelling zal verandert worden naar %{name} als je dit product toevoegt aan de winkelwagen."
   products_oc_is: "Jouw bestellingscyclus voor deze bestelling heet %{name}."
   products_oc_error: "Vervolledig alsjeblieft je bestelling van %{link} voor je verder winkelt in een andere bestellingscyclus."
   products_oc_current: "Je huidige bestellingscyclus"
@@ -1775,7 +1775,7 @@ nl:
   email_not_found: "emailadres werd niet teruggevonden"
   email_unconfirmed: "Je moet je emailadres bevestigen voor je je wachtwoord kan resetten."
   email_required: "Je moet je een emailadres beschikbaar stellen"
-  logging_in: "Wacht een momentje, we loggen je in"
+  logging_in: "Een moment, aanmelden gestart"
   signup_email: "Emailadres"
   choose_password: "Wachtwoord"
   confirm_password: "Bevestig wachtwoord"
@@ -2056,8 +2056,8 @@ nl:
   spree_admin_eg_pickup_from_school: "bv. 'Ophalen bij ...'"
   spree_admin_eg_collect_your_order: "bv. 'U kunt de producten ophalen op adres X'"
   spree_classification_primary_taxon_error: "Taxon %{taxon} is de eerste taxon van %{product} en kan niet verwijderd worden."
-  spree_order_availability_error: "De verdeler of de bestelcyclus kan de producten in je winkelwagentje niet toevoegen"
-  spree_order_populator_error: "De verdeler of de bestelcyclus kan al de producten in je winkelwagentje niet toevoegen. Gelieve een andere te kiezen."
+  spree_order_availability_error: "De verdeler of de bestelcyclus kan de producten in de winkelwagen niet toevoegen"
+  spree_order_populator_error: "De verdeler of de bestelcyclus kan al de producten in de winkelwagen niet toevoegen. Gelieve een andere te kiezen."
   spree_order_populator_availability_error: "Dit product is niet toegelaten op de gekozen verdeler of bestelcyclus."
   spree_distributors_error: " Minstens één hub moet geselecteerd worden"
   spree_user_enterprise_limit_error: "^%{email} is niet toegestaan om meer ondernemers te vertegenwoordigen (het maximum hiervoor is %{enterprise_limit})."
@@ -2078,7 +2078,7 @@ nl:
   enterprise_relationships: "Bedrijfstoestemmingen"
   remove_tax: "Verwijder belasting"
   first_name_begins_with: "Voornaam begint met"
-  last_name_begins_with: "Familienaam begint met "
+  last_name_begins_with: "Achternaam begint met"
   shipping_method: "Verzendmethode"
   new_order: "Nieuwe bestelling"
   enterprise_tos_link: "Voorwaarden"
@@ -2250,11 +2250,11 @@ nl:
   report_header_total_untaxable_fees: Totaal onbelastbare bijkomende kosten en marges
   report_header_total_taxable_fees: Totaal bijkomende kosten en marges (incl.BTW)
   report_header_delivery_shipping_cost: Verzendkosten (incl.BTW)
-  report_header_transaction_fee: Transactiekosten (exl.BTW)
+  report_header_transaction_fee: Transactiekosten (excl.BTW)
   report_header_total_untaxable_admin: Totaal aanpassingen niet belastbaar (geen beslasting)
   report_header_total_taxable_admin: Totaal admin aanpassingen aan BTW onderworpen(incl.BTW)
-  initial_invoice_number: "Oorspronkelijke faktuurnummer"
-  invoice_date: "Faktuurdatum"
+  initial_invoice_number: "Oorspronkelijk factuurnummer"
+  invoice_date: "Factuurdatum"
   due_date: "Vervaldatum"
   account_code: "Code rekening :"
   equals: "Gelijk"
@@ -2411,7 +2411,7 @@ nl:
 
           hub_shop_text2: >
               De winkels kunnen verschillende vormen nemen : GAC, voedselteams, cooperatieve
-              winkels, korte distibutiekanalen, een wijkwinkeltje, enz...
+              winkels, korte distibutiekanalen, een wijkwinkel, enz...
           hub_shop_text3: >
               Indien je zelf produceert en ook je eigen producten wilt verkopen,gelieve
               dan het statuut van je bedrijf te wijzigen, die moet dan als "producent"
@@ -2511,9 +2511,9 @@ nl:
         index:
           per_page: "%{results} tonen"
           view_file: "Zie file"
-          compiling_invoices: "Verzamel de fakturen"
-          bulk_invoice_created: "Fakturen gemaakt"
-          bulk_invoice_failed: "Het maken van de fakturen is mislukt."
+          compiling_invoices: "Verzamel de facturen"
+          bulk_invoice_created: "Facturen gemaakt"
+          bulk_invoice_failed: "Het maken van de facturen is mislukt."
           please_wait: "Gelieve  op de PDF te wachten alvorens de dialoog te sluiten. "
         order_state:
           address: "adres"
@@ -2776,16 +2776,16 @@ nl:
     billing_address: "Factuuradres"
     shipping_address: "Adres Levering"
     first_name: "Voornaam"
-    last_name: "Familienaam"
+    last_name: "Achternaam"
     street_address: "Straat"
     street_address_2: "Straat (vervolg)"
     city: "Stad"
-    zip: "Zip"
+    zip: "Postcode"
     country: "Land"
-    state: "Staat"
+    state: "Provincie"
     phone: "Telefoon"
     update: "Update"
-    use_billing_address: "Fakturatieadres gebruiken"
+    use_billing_address: "Factuuradres gebruiken"
     adjustments: "Correcties "
     continue: "Ga verder"
     fill_in_customer_info: "Gelieve informatie over klant in te vullen"
