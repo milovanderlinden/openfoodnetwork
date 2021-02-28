@@ -1,5 +1,5 @@
-Darkswarm.service "GmapsGeo", ->
-  new class GmapsGeo
+Darkswarm.service "Geocoder", ->
+  new class Geocoder
     OK: google?.maps?.GeocoderStatus?.OK
 
     # Usage:

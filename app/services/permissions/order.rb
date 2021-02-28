@@ -88,11 +88,7 @@ module Permissions
     end
 
     def apply_where_clause(query)
-      if ENV['DEPENDENCIES_NEXT']
-        query.where_clause.__send__(:predicates)
-      else
-        query.where_values
-      end
+      query.where_clause.__send__(:predicates)
     end
 
     def enterprises_with_associated_orders

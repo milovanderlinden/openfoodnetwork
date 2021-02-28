@@ -17,5 +17,4 @@
 //= require handlebars
 
 angular.module('templates', [])
-angular.module('uiGmapgoogle-maps', []);
 angular.module('duScroll', []);

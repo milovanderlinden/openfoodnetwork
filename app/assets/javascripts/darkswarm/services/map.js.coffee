@@ -28,7 +28,7 @@ Darkswarm.factory "OfnMap", (Enterprises, EnterpriseListModal, MapConfiguration)
         marker.id.push(enterprise.id)
       else
         marker = new class MapMarker
-          # We cherry-pick attributes because GMaps tries to crawl
+          # We cherry-pick attributes
           # our data, and our data is cyclic, so it breaks
           reveal: =>
             EnterpriseListModal.open this.enterprises

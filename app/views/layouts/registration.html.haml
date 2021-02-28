@@ -8,7 +8,9 @@
       = favicon_link_tag "/favicon.ico"
     - else
       = favicon_link_tag "/favicon-staging.ico"
-    %link{href: "https://fonts.googleapis.com/css?family=Roboto:400,300italic,400italic,300,700,700italic|Oswald:300,400,700", rel: "stylesheet", type: "text/css"}
+    %link{href: font_path("OFN-v2.woff"), rel: "preload", as: "font", crossorigin: "anonymous"}
+    %link{href: font_path("Monofur-PK7og.ttf"), rel: "preload", as: "font", crossorigin: "anonymous"}
+    %link{href: font_path("SteinerLight-JR1o.ttf"), rel: "preload", as: "font", crossorigin: "anonymous"}
 
     = stylesheet_link_tag "darkswarm/all"
     = csrf_meta_tags
@@ -27,7 +29,6 @@
           #footer
     %loading
 
-    %script{src: "//maps.googleapis.com/maps/api/js?libraries=places"}
     = javascript_include_tag "darkswarm/all"
     = yield :scripts
 

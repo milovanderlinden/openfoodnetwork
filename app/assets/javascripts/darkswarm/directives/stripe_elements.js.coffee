@@ -13,7 +13,7 @@ Darkswarm.directive "stripeElements", ($injector, StripeElements) ->
         hidePostalCode: true
         style:
           base:
-            fontFamily: "Roboto, Arial, sans-serif"
+            fontFamily: "Monofur-PK7og, Arial, sans-serif"
             fontSize: '16px'
             color: '#5c5c5c'
             '::placeholder':

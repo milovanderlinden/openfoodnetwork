@@ -1,15 +1,15 @@
 @import "branding";
 
 @mixin headingFont {
-  font-family: "Oswald", sans-serif;
+  font-family: "SteinerLight-JR1o", sans-serif;
 }
 
 @mixin bodyFont {
-  font-family: "Roboto", Arial, sans-serif;
+  font-family: "Monofur-PK7og", Arial, sans-serif;
 }
 
-$headingFont: "Oswald";
-$body-font: "Roboto", Arial, sans-serif;
+$headingFont: "SteinerLight-JR1o";
+$body-font: "Monofur-PK7og", Arial, sans-serif;
 
 body {
   @include bodyFont;

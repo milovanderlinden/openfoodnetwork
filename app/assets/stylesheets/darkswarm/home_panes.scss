@@ -68,7 +68,7 @@
 
     @include breakpoint(tablet) {
       h2 {
-        font-size: 52px;
+        font-size: 46px;
       }
 
       p {
@@ -140,7 +140,7 @@
     color: $brand-colour;
 
     @include breakpoint(phablet) {
-      font-size: 45px;
+      font-size: 38px;
     }
   }
 
@@ -173,7 +173,7 @@
 #cta.pane, #stats.pane {
   h2 {
     font-weight: 300;
-    font-size: 45px;
+    font-size: 38px;
     margin-bottom: 2rem;
 
     @media all and (max-width: 830px) {

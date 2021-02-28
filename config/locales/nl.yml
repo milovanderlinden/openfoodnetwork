@@ -694,7 +694,7 @@ nl:
           none: Geen
           own: Eigen
           sells: Verkoopt
-          sells_tip: "Geen enkele - ondernemer verkoopt niet rechtstreeks aan de klant. <br />Eigen - Ondernemer verkoopt eigen product aan de klant. <br />Om het even - Ondernemer kan eigen producten verkopen of producten van andere ondernemers. <br />"
+          sells_tip: "Geen - ondernemer verkoopt niet rechtstreeks. <br />Eigen - Ondernemer verkoopt eigen producten. <br />Ook van derden - Ondernemer kan eigen producten verkopen of producten van derden. <br />"
           visible_in_search: Zichtbaar in zoekopdracht?
           visible_in_search_tip: Bepaalt of deze ondernemer zichtbaar is op de site.
           visible: Zichtbaar
@@ -780,7 +780,7 @@ nl:
         users:
           email_confirmation_notice_html: "Bevestigingsverzoek verstuurd. Controleer uw inbox voor %{email}."
           resend: Zend opnieuw
-          owner: 'Eigenaar'
+          owner: 'Beheerder'
           contact: "Contact"
           contact_tip: "De manager zal een email ontvangen voor bestellingen en notificaties. Een bevestigd emailadres is hiervoor noodzakelijk."
           owner_tip: De hoofdgebruiker is verantwoordelijk voor deze ondernemer.
@@ -809,7 +809,7 @@ nl:
         role: Rol
         sells: Verkoopt
         visible: Actief
-        owner: Eigenaar
+        owner: Beheerder
         producer: Producent
       change_type_form:
         producer_profile: Producentsprofiel
@@ -841,10 +841,10 @@ nl:
         package: "Pakket"
         status: "Status"
       new_form:
-        owner: Eigenaar
-        owner_tip: De hoofdgebruiker is verantwoordelijk voor deze ondernemer.
+        owner: Beheerder
+        owner_tip: De beheerder beheert een ondernemer in het systeem.
         i_am_producer: Ik ben producent
-        contact_name: Naam contactpersoon
+        contact_name: contactpersoon
       edit:
         editing: 'Instellingen:'
         back_link: Terug naar ondernemers
@@ -1278,9 +1278,9 @@ nl:
   address_placeholder: bv. 123 Stationsstraat
   address2: Adres (vervolg)
   city: Stad
-  city_placeholder: bv. Gent
+  city_placeholder: bijv. Amsterdam
   postcode: Postcode
-  postcode_placeholder: bv. 9000
+  postcode_placeholder: bijv. 1000 AK
   suburb: Gemeente
   state: Staat
   country: Land

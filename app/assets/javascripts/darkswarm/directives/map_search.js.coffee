@@ -1,7 +1,7 @@
 Darkswarm.directive 'mapSearch', ($timeout, Search) ->
   # Install a basic search field in a map
   restrict: 'E'
-  require: ['^uiGmapGoogleMap', 'ngModel']
+  require: ['ngModel']
   replace: true
   template: '<input id="pac-input" ng-model="query" placeholder="' + t('location_placeholder') + '"></input>'
   scope: {}
