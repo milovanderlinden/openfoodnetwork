@@ -165,7 +165,7 @@ GEM
     delayed_job_active_record (4.1.5)
       activerecord (>= 3.0, < 6.2)
       delayed_job (>= 3.0, < 5)
-    delayed_job_web (1.4.3)
+    delayed_job_web (1.4.4)
       activerecord (> 3.0.0)
       delayed_job (> 2.0.3)
       rack-protection (>= 1.5.5)
@@ -430,7 +430,7 @@ GEM
     rswag-ui (2.4.0)
       actionpack (>= 3.1, < 7.0)
       railties (>= 3.1, < 7.0)
-    rubocop (1.10.0)
+    rubocop (1.11.0)
       parallel (~> 1.10)
       parser (>= 3.0.0.0)
       rainbow (>= 2.2.2, < 4.0)
@@ -588,7 +588,7 @@ DEPENDENCIES
   haml
   highline (= 2.0.3)
   i18n
-  i18n-js (~> 3.8.0)
+  i18n-js (~> 3.8.1)
   immigrant
   irb
   jquery-migrate-rails
